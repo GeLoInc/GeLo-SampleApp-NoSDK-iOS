@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC18F83192FC0A3002A75C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F82192FC0A3002A75C8 /* Foundation.framework */; };
+		ABC18F85192FC0A3002A75C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F84192FC0A3002A75C8 /* CoreGraphics.framework */; };
+		ABC18F87192FC0A3002A75C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F86192FC0A3002A75C8 /* UIKit.framework */; };
+		ABC18F8D192FC0A3002A75C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC18F8B192FC0A3002A75C8 /* InfoPlist.strings */; };
+		ABC18F8F192FC0A3002A75C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC18F8E192FC0A3002A75C8 /* main.m */; };
+		ABC18F93192FC0A3002A75C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC18F92192FC0A3002A75C8 /* AppDelegate.m */; };
+		ABC18F96192FC0A3002A75C8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC18F94192FC0A3002A75C8 /* Main_iPhone.storyboard */; };
+		ABC18F9C192FC0A3002A75C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC18F9B192FC0A3002A75C8 /* ViewController.m */; };
+		ABC18F9E192FC0A3002A75C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC18F9D192FC0A3002A75C8 /* Images.xcassets */; };
+		ABC18FA5192FC0A3002A75C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18FA4192FC0A3002A75C8 /* XCTest.framework */; };
+		ABC18FA6192FC0A3002A75C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F82192FC0A3002A75C8 /* Foundation.framework */; };
+		ABC18FA7192FC0A3002A75C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18F86192FC0A3002A75C8 /* UIKit.framework */; };
+		ABC18FAF192FC0A3002A75C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC18FAD192FC0A3002A75C8 /* InfoPlist.strings */; };
+		ABC18FB1192FC0A3002A75C8 /* GeLo_SampleApp_NoSDK_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC18FB0192FC0A3002A75C8 /* GeLo_SampleApp_NoSDK_iOSTests.m */; };
+		ABC18FBB192FC1BC002A75C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC18FBA192FC1BC002A75C8 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC18FA8192FC0A3002A75C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC18F77192FC0A3002A75C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC18F7E192FC0A3002A75C8;
+			remoteInfo = "GeLo-SampleApp-NoSDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC18F7F192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeLo-SampleApp-NoSDK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC18F82192FC0A3002A75C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABC18F84192FC0A3002A75C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABC18F86192FC0A3002A75C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABC18F8A192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeLo-SampleApp-NoSDK-iOS-Info.plist"; sourceTree = "<group>"; };
+		ABC18F8C192FC0A3002A75C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC18F8E192FC0A3002A75C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC18F90192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeLo-SampleApp-NoSDK-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		ABC18F91192FC0A3002A75C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC18F92192FC0A3002A75C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC18F95192FC0A3002A75C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ABC18F9A192FC0A3002A75C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC18F9B192FC0A3002A75C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC18F9D192FC0A3002A75C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC18FA3192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GeLo-SampleApp-NoSDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC18FA4192FC0A3002A75C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABC18FAC192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeLo-SampleApp-NoSDK-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		ABC18FAE192FC0A3002A75C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC18FB0192FC0A3002A75C8 /* GeLo_SampleApp_NoSDK_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeLo_SampleApp_NoSDK_iOSTests.m; sourceTree = "<group>"; };
+		ABC18FBA192FC1BC002A75C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC18F7C192FC0A3002A75C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18FBB192FC1BC002A75C8 /* CoreLocation.framework in Frameworks */,
+				ABC18F85192FC0A3002A75C8 /* CoreGraphics.framework in Frameworks */,
+				ABC18F87192FC0A3002A75C8 /* UIKit.framework in Frameworks */,
+				ABC18F83192FC0A3002A75C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC18FA0192FC0A3002A75C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18FA5192FC0A3002A75C8 /* XCTest.framework in Frameworks */,
+				ABC18FA7192FC0A3002A75C8 /* UIKit.framework in Frameworks */,
+				ABC18FA6192FC0A3002A75C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC18F76192FC0A3002A75C8 = {
+			isa = PBXGroup;
+			children = (
+				ABC18F88192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS */,
+				ABC18FAA192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests */,
+				ABC18F81192FC0A3002A75C8 /* Frameworks */,
+				ABC18F80192FC0A3002A75C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC18F80192FC0A3002A75C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18F7F192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS.app */,
+				ABC18FA3192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC18F81192FC0A3002A75C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18FBA192FC1BC002A75C8 /* CoreLocation.framework */,
+				ABC18F82192FC0A3002A75C8 /* Foundation.framework */,
+				ABC18F84192FC0A3002A75C8 /* CoreGraphics.framework */,
+				ABC18F86192FC0A3002A75C8 /* UIKit.framework */,
+				ABC18FA4192FC0A3002A75C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC18F88192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18F91192FC0A3002A75C8 /* AppDelegate.h */,
+				ABC18F92192FC0A3002A75C8 /* AppDelegate.m */,
+				ABC18F94192FC0A3002A75C8 /* Main_iPhone.storyboard */,
+				ABC18F9A192FC0A3002A75C8 /* ViewController.h */,
+				ABC18F9B192FC0A3002A75C8 /* ViewController.m */,
+				ABC18F9D192FC0A3002A75C8 /* Images.xcassets */,
+				ABC18F89192FC0A3002A75C8 /* Supporting Files */,
+			);
+			path = "GeLo-SampleApp-NoSDK-iOS";
+			sourceTree = "<group>";
+		};
+		ABC18F89192FC0A3002A75C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18F8A192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS-Info.plist */,
+				ABC18F8B192FC0A3002A75C8 /* InfoPlist.strings */,
+				ABC18F8E192FC0A3002A75C8 /* main.m */,
+				ABC18F90192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC18FAA192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18FB0192FC0A3002A75C8 /* GeLo_SampleApp_NoSDK_iOSTests.m */,
+				ABC18FAB192FC0A3002A75C8 /* Supporting Files */,
+			);
+			path = "GeLo-SampleApp-NoSDK-iOSTests";
+			sourceTree = "<group>";
+		};
+		ABC18FAB192FC0A3002A75C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC18FAC192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests-Info.plist */,
+				ABC18FAD192FC0A3002A75C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC18F7E192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC18FB4192FC0A3002A75C8 /* Build configuration list for PBXNativeTarget "GeLo-SampleApp-NoSDK-iOS" */;
+			buildPhases = (
+				ABC18F7B192FC0A3002A75C8 /* Sources */,
+				ABC18F7C192FC0A3002A75C8 /* Frameworks */,
+				ABC18F7D192FC0A3002A75C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeLo-SampleApp-NoSDK-iOS";
+			productName = "GeLo-SampleApp-NoSDK-iOS";
+			productReference = ABC18F7F192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC18FA2192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC18FB7192FC0A3002A75C8 /* Build configuration list for PBXNativeTarget "GeLo-SampleApp-NoSDK-iOSTests" */;
+			buildPhases = (
+				ABC18F9F192FC0A3002A75C8 /* Sources */,
+				ABC18FA0192FC0A3002A75C8 /* Frameworks */,
+				ABC18FA1192FC0A3002A75C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC18FA9192FC0A3002A75C8 /* PBXTargetDependency */,
+			);
+			name = "GeLo-SampleApp-NoSDK-iOSTests";
+			productName = "GeLo-SampleApp-NoSDK-iOSTests";
+			productReference = ABC18FA3192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC18F77192FC0A3002A75C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "GeLo Inc.";
+				TargetAttributes = {
+					ABC18FA2192FC0A3002A75C8 = {
+						TestTargetID = ABC18F7E192FC0A3002A75C8;
+					};
+				};
+			};
+			buildConfigurationList = ABC18F7A192FC0A3002A75C8 /* Build configuration list for PBXProject "GeLo-SampleApp-NoSDK-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC18F76192FC0A3002A75C8;
+			productRefGroup = ABC18F80192FC0A3002A75C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC18F7E192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS */,
+				ABC18FA2192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC18F7D192FC0A3002A75C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18F9E192FC0A3002A75C8 /* Images.xcassets in Resources */,
+				ABC18F96192FC0A3002A75C8 /* Main_iPhone.storyboard in Resources */,
+				ABC18F8D192FC0A3002A75C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC18FA1192FC0A3002A75C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18FAF192FC0A3002A75C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC18F7B192FC0A3002A75C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18F9C192FC0A3002A75C8 /* ViewController.m in Sources */,
+				ABC18F93192FC0A3002A75C8 /* AppDelegate.m in Sources */,
+				ABC18F8F192FC0A3002A75C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC18F9F192FC0A3002A75C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC18FB1192FC0A3002A75C8 /* GeLo_SampleApp_NoSDK_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC18FA9192FC0A3002A75C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC18F7E192FC0A3002A75C8 /* GeLo-SampleApp-NoSDK-iOS */;
+			targetProxy = ABC18FA8192FC0A3002A75C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC18F8B192FC0A3002A75C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC18F8C192FC0A3002A75C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABC18F94192FC0A3002A75C8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC18F95192FC0A3002A75C8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC18FAD192FC0A3002A75C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC18FAE192FC0A3002A75C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC18FB2192FC0A3002A75C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC18FB3192FC0A3002A75C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC18FB5192FC0A3002A75C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Prefix.pch";
+				INFOPLIST_FILE = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABC18FB6192FC0A3002A75C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Prefix.pch";
+				INFOPLIST_FILE = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABC18FB8192FC0A3002A75C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeLo-SampleApp-NoSDK-iOS.app/GeLo-SampleApp-NoSDK-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeLo-SampleApp-NoSDK-iOSTests/GeLo-SampleApp-NoSDK-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABC18FB9192FC0A3002A75C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeLo-SampleApp-NoSDK-iOS.app/GeLo-SampleApp-NoSDK-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS-Prefix.pch";
+				INFOPLIST_FILE = "GeLo-SampleApp-NoSDK-iOSTests/GeLo-SampleApp-NoSDK-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC18F7A192FC0A3002A75C8 /* Build configuration list for PBXProject "GeLo-SampleApp-NoSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC18FB2192FC0A3002A75C8 /* Debug */,
+				ABC18FB3192FC0A3002A75C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC18FB4192FC0A3002A75C8 /* Build configuration list for PBXNativeTarget "GeLo-SampleApp-NoSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC18FB5192FC0A3002A75C8 /* Debug */,
+				ABC18FB6192FC0A3002A75C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC18FB7192FC0A3002A75C8 /* Build configuration list for PBXNativeTarget "GeLo-SampleApp-NoSDK-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC18FB8192FC0A3002A75C8 /* Debug */,
+				ABC18FB9192FC0A3002A75C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC18F77192FC0A3002A75C8 /* Project object */;
+}
