@@ -34,6 +34,7 @@
 
     self.locationManager = [[CLLocationManager alloc] init];
     self.locationManager.delegate = self;
+    [self.locationManager requestAlwaysAuthorization];
     self.isRanging = NO;
 
     NSUUID *uuid = [[NSUUID alloc] initWithUUIDString:@kGeLoProfileUUID];

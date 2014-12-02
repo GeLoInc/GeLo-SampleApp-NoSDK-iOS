@@ -10,29 +10,29 @@
 	<string>GeLo-SampleApp-NoSDK-iOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D251706E-8E7F-416B-AB27-A3D29B7C0C1F</key>
-		<string>ssh://github.com/GeLoInc/GeLo-SampleApp-NoSDK-iOS.git</string>
+		<key>8A8EA630BF08B468BFE8F4A88D0BC798789A98A3</key>
+		<string>https://github.com/GeLoInc/GeLo-SampleApp-NoSDK-iOS</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GeLo-SampleApp-NoSDK-iOS/GeLo-SampleApp-NoSDK-iOS.xcodeproj/project.xcworkspace</string>
+	<string>GeLo-SampleApp-NoSDK-iOS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D251706E-8E7F-416B-AB27-A3D29B7C0C1F</key>
-		<string>../../..</string>
+		<key>8A8EA630BF08B468BFE8F4A88D0BC798789A98A3</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/GeLoInc/GeLo-SampleApp-NoSDK-iOS.git</string>
+	<string>https://github.com/GeLoInc/GeLo-SampleApp-NoSDK-iOS</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D251706E-8E7F-416B-AB27-A3D29B7C0C1F</string>
+	<string>8A8EA630BF08B468BFE8F4A88D0BC798789A98A3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D251706E-8E7F-416B-AB27-A3D29B7C0C1F</string>
+			<string>8A8EA630BF08B468BFE8F4A88D0BC798789A98A3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GeLo-SampleApp-NoSDK-iOS</string>
 		</dict>

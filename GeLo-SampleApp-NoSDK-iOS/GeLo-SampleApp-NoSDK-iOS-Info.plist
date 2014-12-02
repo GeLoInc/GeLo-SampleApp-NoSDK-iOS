@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This message is pulled from the GeLo-SampleApp-NoSDK-iOS-Info.plist NSLocationWhenInUseUsageDescription key.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This message is pulled from the GeLo-SampleApp-NoSDK-iOS-Info.plist NSLocationAlwaysUsageDescription key.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
